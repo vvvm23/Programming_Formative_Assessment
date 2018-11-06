@@ -1,0 +1,12 @@
+carousel-caption 
+	{
+		left: 1%;
+		right: auto
+		bottom: -20px;		
+	}
+
+img 
+	{
+		width: 700px;
+		height: 400px;
+	}

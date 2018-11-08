@@ -1,12 +1,39 @@
-carousel-caption 
-	{
-		left: 1%;
-		right: auto
-		bottom: -20px;		
-	}
+body
+{
+	background-color: #9B9B9B;
+}
 
-img 
-	{
-		width: 700px;
-		height: 400px;
-	}
+carousel-caption 
+{
+	left: 1%;
+	right: auto;
+	bottom: -20px;		
+}
+
+p
+{
+	font-size: 14pt;
+}
+
+img
+{
+	width: 75%;
+	/* https://stackoverflow.com/questions/7055393/center-image-using-text-align-center */
+	display: block;
+    margin: 0 auto;
+}
+
+#left
+{
+	padding-top: 75px;
+	margin-left: 2%;
+	float: left;
+	width: 45%;
+}
+
+#right
+{
+	padding-top: 75px;
+	float: right;
+	width: 50%;
+}

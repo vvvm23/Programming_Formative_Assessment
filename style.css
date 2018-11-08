@@ -23,6 +23,11 @@ img
     margin: 0 auto;
 }
 
+.carousel-image
+{
+	height: 50vh;
+}
+
 #left
 {
 	padding-top: 75px;

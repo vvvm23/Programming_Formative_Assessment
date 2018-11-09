@@ -42,3 +42,9 @@ img
 	float: right;
 	width: 50%;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	height: 32px;
+	width: 32px;
+	background-image: "media/carousel_icon.png";

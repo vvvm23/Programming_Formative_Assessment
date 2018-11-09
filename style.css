@@ -3,9 +3,15 @@ body
 	background-color: #5b5a5a;
 }
 
+h1
+{
+	color: white;
+}
+
 p
 {
 	font-size: 14pt;
+	color: white;
 }
 
 img
@@ -26,7 +32,7 @@ img
 {
 	position: relative;
 	left: auto;
-    	right: auto;
+    right: auto;
 }
 
 #left

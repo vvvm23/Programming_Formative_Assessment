@@ -13,12 +13,13 @@ img
 	width: 75%;
 	/* https://stackoverflow.com/questions/7055393/center-image-using-text-align-center */
 	display: block;
-    	margin: 0 auto;
+    margin: 0 auto;
 }
 
 .carousel-image
 {
 	height: 50vh;
+	object-fit: cover;
 }
 
 .carousel-caption 

@@ -1,49 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title>Home Page</title>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<!-- Required meta tags -->
-	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-</head>
 	<link rel="stylesheet" href="style.css">
-	<title>Home Page</title>
+</head>
+	
+	
+
 <body>
-	<center>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="science.html">Science</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="medicine.html">Medicine</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="comms.html">Communication</a>
+				</li>
+			</ul>
+		</nav>
+	
+	<br><br><br><!-- Replace this with proper pad -->
 	<div id="carousel" class="carousel slide" data-ride="carousel">
 		<ul class="carousel-indicators">
-			<li data-target="#carousel" data-slide-to="0" class="active"</li>
-			<li data-target="#carousel" data-slide-to="1"</li>
-			<li data-target="#carousel" data-slide-to="2"</li>
+			<li data-target="#carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel" data-slide-to="1"></li>
+			<li data-target="#carousel" data-slide-to="2"></li>
 			<!-- Potentially add links to external sites -->
 		</ul>
-
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="media/doctor_hands_computer.jpg">
-				<div class="carousel-caption">
-					<h3>Medicine</h3>
-					<p>Summary on Medicine</p>
-				</div>
+				<a href="medicine.html">
+					<img class="carousel-image" src="media/carousel_medicine.png" alt="Medicine">
+					<div class="carousel-caption">
+						<br>
+						<h3>Medicine</h3>
+						<p>Summary on Medicine</p>
+					</div>
+				</a>	
 			</div>
 
 			<div class="carousel-item">
-				<img src="media/colossus.jpg">
-				<div class="carousel-caption">
-					<h3>Scientific Computing</h3>
-					<p>Summary on Scientific Computing</p>
-				</div>
+				<a href="science.html">
+					<img class="carousel-image" src="media/carousel_science.png" alt="Science">
+					<div class="carousel-caption">
+						<br>
+						<h3>Scientific Computing</h3>
+						<p>Summary on Scientific Computing</p>
+					</div>
+				</a>	
 			</div>
 
 			<div class="carousel-item">
-				<img src="media/phone.jpeg">
-				<div class="carousel-caption">
-					<h3>Communication</h3>
-					<p>Summary on Communication</p>
-				</div>
+				<a href="comms.html">
+					<img class="carousel-image" src="media/carousel_comms.png" alt="Communication">
+					<div class="carousel-caption">
+						<br>
+						<h3>Communication</h3>
+						<p>A look at how computing has revolutionised the way we communicate</p>
+					</div>
+				</a>
 			</div>
 		</div>
 
@@ -54,9 +81,47 @@
 			<span class="carousel-control-next-icon"></span>
 		</a>
 	</div>
-	</center>
-
-
+	<div class="container">
+		<div class="row">
+			<div class="column-lg-12 col-md text-white">
+				<h2>Author Information</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column-lg-4 col-md">
+				<div class="card text-white bg-dark">
+					<div class="card-header">
+						<h3>Adam Greenbank</h3>
+					</div>
+					<div class="card-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt eros ut turpis iaculis ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque eu elit a ipsum efficitur mattis ut ac lacus. Mauris aliquam sodales odio vehicula dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis pellentesque velit sit amet mi interdum ornare. Suspendisse potenti. Nullam semper pellentesque leo, suscipit facilisis erat. Nunc viverra nunc malesuada dignissim porta. Duis in euismod quam, eu pretium erat. Nullam vulputate bibendum viverra. Proin dignissim convallis laoreet. Donec lacus magna, vehicula et risus ac, rhoncus vehicula ligula. Ut eu fermentum diam, et tempor lorem. Phasellus sed erat porta, pretium tortor quis, congue dolor.</p>
+					</div>
+				</div>
+			</div>
+			<div class="column-lg-4 col-md">
+				<div class="card text-white bg-dark">	
+					<div class="card-header">
+						<h3>Alex McKinney</h3>
+					</div>
+					<div class="card-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt eros ut turpis iaculis ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque eu elit a ipsum efficitur mattis ut ac lacus. Mauris aliquam sodales odio vehicula dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis pellentesque velit sit amet mi interdum ornare. Suspendisse potenti. Nullam semper pellentesque leo, suscipit facilisis erat. Nunc viverra nunc malesuada dignissim porta. Duis in euismod quam, eu pretium erat. Nullam vulputate bibendum viverra. Proin dignissim convallis laoreet. Donec lacus magna, vehicula et risus ac, rhoncus vehicula ligula. Ut eu fermentum diam, et tempor lorem. Phasellus sed erat porta, pretium tortor quis, congue dolor.</p>
+					</div>
+				</div>
+			</div>
+			<div class="column-lg-4 col-md">
+				<div class="card text-white bg-dark">
+					<div class="card-header">
+						<h3>Jake Saunders</h3>
+					</div>
+					<div class="card-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt eros ut turpis iaculis ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque eu elit a ipsum efficitur mattis ut ac lacus. Mauris aliquam sodales odio vehicula dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis pellentesque velit sit amet mi interdum ornare. Suspendisse potenti. Nullam semper pellentesque leo, suscipit facilisis erat. Nunc viverra nunc malesuada dignissim porta. Duis in euismod quam, eu pretium erat. Nullam vulputate bibendum viverra. Proin dignissim convallis laoreet. Donec lacus magna, vehicula et risus ac, rhoncus vehicula ligula. Ut eu fermentum diam, et tempor lorem. Phasellus sed erat porta, pretium tortor quis, congue dolor.</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<br>
 	<!-- Place HTML markup above this -->
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->

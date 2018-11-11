@@ -40,6 +40,13 @@ img
     right: auto;
 }
 
+.icon
+{
+	float: right;
+	width: 32px;
+	height: 32px;
+}
+
 #left
 {
 	padding-top: 75px;

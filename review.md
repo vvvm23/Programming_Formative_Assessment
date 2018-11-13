@@ -1,0 +1,21 @@
+i. Interest of content - Excellent
+==================================
+	- Includes three very varied topics which are all pretty interesting. Communication, and Science behind computers were expected, but the article on the use of computation in medicine was especially interesting.
+
+ii. Consistency and quality of visual presentation - Excellent
+==============================================================
+	-The layout of the site was pretty impressive. They included a navigation bar linking between pages and section of the page which linked directly to different subheadings within each page. However, having all of the text to one side with a row of images on the other isn't too aesthetically pleasing. Their homepage was very well designed with graphics previewing the content to come and well formatted about sections for each of the three authors.
+
+iii. Quality of written presentation - Good
+================================================
+	- All of the articles were well written and introduced the three applications of computing in clear and concise ways. The pictures were not always directly related to the written content and at one point two photos were referenced (in the "communication" page) but thay didn't actually appear which could suggest a miscommunication between authors.
+
+iv. Validity of html - Very good
+================================
+	-"A document must not include both a meta element with an http-equiv attribute whose value is content-type, and a meta element with a charset attribute". That was the only error in the random page we sampled according to validator.w3.org. It is only a minor detail that I wasn't even aware of, so the code is pretty much perfect.
+
+v. Evidence of collaboration - Good
+===================================
+	-The author info for each person was evidently not written by each author
+	- Going only off of number of commits. there was a split of 30:11: 10 . However some commits might have larger than others
+	- They were pretty organised with only with only 9 out of 51 commits in the last day or so with most of them being throughout the last week
